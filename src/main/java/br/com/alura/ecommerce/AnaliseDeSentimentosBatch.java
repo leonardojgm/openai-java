@@ -12,7 +12,7 @@ import java.time.Duration;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-public class AnaliseDeSentimentos {
+public class AnaliseDeSentimentosBatch {
     public static void main(String[] args) {
         try {
             var promptSistema = """
@@ -59,8 +59,7 @@ public class AnaliseDeSentimentos {
 
                 System.out.println("Analise finalizada");
             }
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             System.out.println("Ocorreu um erro ao realizar as analises de sentimentos!");
         }
     }
